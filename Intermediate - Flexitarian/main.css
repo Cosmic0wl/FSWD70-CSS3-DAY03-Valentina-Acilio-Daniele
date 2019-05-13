@@ -1,0 +1,59 @@
+body {
+	font-family: "Arial", "sans serif";
+	font-size: 16px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#container h1 {
+	font-size: 1.5rem;
+}
+
+#container p {
+	font-size: 1rem;
+}
+
+#title {
+	border-bottom: 1.5rem solid black;
+}
+
+.row-1 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cols {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1rem solid black;
+}
+
+.cal {
+	margin-left: 1rem;
+}
+
+
+.col-1, .col-2{
+	width: 50%;
+}
+
+
+.col-1 p, .col-2 p, .col-3 p {
+	border-bottom: 0.2rem solid grey;
+}
+
+
+.row-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-between;
+	border-bottom: 0.1rem solid grey;
+}
+
+.offset {
+	padding-right: 3rem;
+}
+
