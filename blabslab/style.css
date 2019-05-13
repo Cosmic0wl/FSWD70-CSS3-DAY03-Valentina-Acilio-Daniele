@@ -4,3 +4,13 @@ purple: #930077
 pink: #e61c5d
 yellow: #ffbd39
 */
+
+body {
+	font-family: "Arial", "sans-serif";
+	font-size: 16px;
+}
+
+#container{
+	margin: 0 auto;
+	width: 80%;
+} 
