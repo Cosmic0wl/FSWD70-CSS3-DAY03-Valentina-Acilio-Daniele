@@ -6,6 +6,8 @@ body {
 #container {
 	margin: 0 auto;
 	width: 500px;
+	border-style: solid;
+	padding: 1px;
 }
 
 #container h1 {
@@ -25,7 +27,7 @@ body {
 	justify-content: flex-end;
 }
 
-.cols {
+.cols {								/* thicker line between after header*/
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1rem solid black;
@@ -47,6 +49,12 @@ body {
 
 
 .row-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-between;
+	border-bottom: 0.1rem solid grey;
+}
+.row-3 {
 	display: flex;
 	flex-direction: row;
 	justify-content:  space-between;
