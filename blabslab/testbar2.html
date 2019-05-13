@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> 
+.barnav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #3a0088;
+  border-bottom: solid;
+  border-color: grey;
+}
+
+.barnav > div {
+  background-color: #ffbd39;
+  width: 120px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 3px;
+  animation-name: example;
+  animation-duration: 4s;
+
+}
+@keyframes example { 
+  from {background-color: #ffbd39;}
+  to {background-color: yellow;}
+}
+.barnav a {
+	color: #3a0088
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer {
+
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	background-color: #e61c5d;
+	border-top: solid;
+	border-color: grey;
+	
+}
+
+.footer div {
+	margin: 10px;
+	border-left: solid;
+	border-right: solid;
+	padding: 5px;
+}
+.footer p {
+	text-align: center;
+}
+.footer a {
+	color: #000000;
+}
+.text a {
+	color: #000000;
+}
+.text {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background-image: linear-gradient(#e61c5d, #FF69B4);
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+
+
+
+	</style>
+
+</head>
+<body>
+	<div id=top class="barnav">
+  		<div><a href="#Usage">Usage</a></div>
+  		<div><a href="#minutes">Minutes</a></div>
+  		<div><a href="#credits">Credits</a></div>
+  		<div><a href="#contract">Contract</a></div>
+
+	</div>
+	<div class="footer">
+		<div><a href="#usage">Usage</a></div>
+  		<div><a href="#minutes">Minutes</a></div>
+  		<div><a href="#credits">Credits</a></div>
+  		<div><a href="#contract">Contract</a></div>
+  	</div>
+  	<div class="text">
+  		<div><p>© 2019 Copyright</p></div>
+  		<div><p><a href="#top">Back to the top</a></p></div>
+  	</div>
+</body>
+</body>
+</html>
