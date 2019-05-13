@@ -14,3 +14,84 @@ body {
 	margin: 0 auto;
 	width: 80%;
 } 
+
+
+
+/* daniele start*/
+
+h1{
+	position: relative;
+	left: 40%;
+}
+#info_check{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+#info_check img{
+	width: 200px;
+	height: 200px;
+}
+#middle_part{
+	border: 4px solid  #ffbd39;
+	padding: 20px;
+	 border-radius: 30px;
+	
+
+}
+#info_check figure{
+	font-size: 22px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: "verdana";
+}
+
+
+div[class^=check_bar]{
+	visibility: hidden;
+	margin: 10px;
+	width: 20%;
+	height: 1em;
+	background-color: #ffbd39;
+	border-radius: 20px;
+	transition: width 2s;
+}
+
+#f1:hover div{
+		width: 80% ;
+		visibility: visible;
+		background-color: lightgreen;
+}
+#f2:hover div{
+		width: 70% ;
+		visibility: visible;
+}
+#f3:hover div{
+		width: 30% ;
+		visibility: visible;
+		background-color: red;
+}
+#f1 p, #f2 p, #f3 p{
+	visibility: hidden;
+}
+#f1:hover p{
+	visibility: visible;
+	font-weight: bold;
+}
+
+#f2:hover > p{
+	visibility: visible;
+	font-weight: bold;
+}
+
+
+#f3:hover>p{
+	visibility: visible;
+	font-weight: bold;
+}
+
+
+
+/* daniele end*/
