@@ -8,10 +8,11 @@
 	<style type="text/css" media="screen">
 		#container{
 			margin: 10px 20px 0px 20px;
+			width: 80%;
 
 		}
 		body{
-			
+			font-family: "Arial", "sans-serif";
 			background: rgb(30,87,153); /* Old browsers */
 			background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
 			background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 100%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -28,6 +29,8 @@
 	h1{ 
 		color: white;
 		transition: text-shadow 2s, font-size 2s;
+		padding: 5px;
+		text-align: center;
 	} 
 	h1:hover {
 		text-shadow:8px 8px 13px black;
@@ -71,6 +74,30 @@
 		transition: font-size 2s, background-color 2s, border-radius 3s, background-color 4s, transform 6s;
 	}
 
+	.effect {
+		background-color: black;
+		padding: 10px;
+		width: 300px;
+		-webkit-transition: width 4s;
+		-webkit-transition-timing-function: ease-in;
+		float: right;
+		margin: 20px;
+	}
+
+	.effect:hover {
+		width: 800px;
+		cursor: pointer;
+	}	
+
+	.text {
+		float: right;
+	}
+
+	.text:hover {
+		text-shadow: 3px 3px red;
+		cursor: pointer;
+	}
+
 </style>
 </head> <body>
 
@@ -89,8 +116,10 @@
 			
 			<p>
 			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae a. Itaque earum rerum hic tenetur a sapiente delectus, ut aut <span>Hello World!!!</span>reiciendis voluptatibus maiores alias ut perferendis doloribus asperiores repellat.
-			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+			At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 			</p>
+			<p class="effect">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+			<p class="text">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
 		</article>
 
 		
