@@ -57,3 +57,38 @@ body {
 	padding-right: 3rem;
 }
 
+
+#vitamine{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 100%;
+}
+#vitamine div{
+	display: flex;
+	flex-flow:  column;
+	
+}
+hr{
+	background-color: black;
+}
+dd{
+	padding-left: 4em;
+}
+
+#pre_row{
+	
+	border-bottom: 0.1em solid grey;
+	display: flex;
+	justify-content: flex-end;	
+}
+#pre_row span{
+	
+	padding:0px 1.7em 0px 3.5em;
+	
+	
+}
+#pre_row span:nth-child(2){
+	margin-right: -1.3em;
+	
+}
