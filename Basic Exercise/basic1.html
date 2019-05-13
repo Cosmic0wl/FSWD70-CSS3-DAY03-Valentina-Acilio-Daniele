@@ -13,11 +13,10 @@
 			background-color: #DCDCDC;
 			padding: 3px;
 			margin: 1px;
+			list-style:none;
 
 		}
-		ul {
-			list-style:none; 
-		}
+		
 	
 		#head {
 			width: 350px;
@@ -30,6 +29,7 @@
 		#link {
 			transition: width 2s linear 1s;
 			transition-timing-function: ease-in;
+			
 		}
 		#link li:hover {
 			font-size: 20px;
@@ -45,6 +45,9 @@
 			width: 350px;
 			background-color: #a9a9a9;
 			text-align: center;
+			display: flex;
+			flex-flow: column;
+			align-items: center;
 
 		}
 
@@ -64,7 +67,7 @@
 		Testing transition</h2></div>
 		<div id="link">
 			<div id="linkbox">
-			<ul> <p>Developer resources and tools</p>
+			<p>Developer resources and tools</p>
 				<li><a href="https://www.w3schools.com" target="_blank"> W3 Schools</a></li>
 				<li><a href="https://www.codefactory.wien" target="_blank">Code Factory</a></li>
 				<li><a href="https://www.rapidtables.com/web/color/index.html" target="_blank">Rapid Tables</a></li>
@@ -72,7 +75,6 @@
 				<li><a href=""></a></li>
 				<li><a href=""></a></li>
 				
-			</ul>
 			</div>
 		</div>
 	</div>
